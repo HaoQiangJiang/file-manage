@@ -1,0 +1,13 @@
+server:
+  port: 9001
+  connection-timeout: 60000
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/file?serverTimezone=UTC
+    username: root
+    password: root
+  servlet:
+    multipart:
+      max-request-size: 1000MB
+      max-file-size: 1000MB
