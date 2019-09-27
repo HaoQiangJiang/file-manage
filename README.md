@@ -41,9 +41,15 @@ spring:
     
     password: root
  
- 4.启动项目
+ #4.启动项目
 #启动
 
 右键直接运行com.hs.HsEduApplication 类即可已启动项目
 
 启动成功后访问：http://localhost:9001/swagger-ui.html#
+
+#5.测试账号
+
+userame:admin
+
+passwd:admin
