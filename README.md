@@ -53,3 +53,7 @@ spring:
 userame:admin
 
 passwd:admin
+
+#6.文件默认上传地址：
+
+本地D:\data目录下，默认下载目录也是这个目录。
